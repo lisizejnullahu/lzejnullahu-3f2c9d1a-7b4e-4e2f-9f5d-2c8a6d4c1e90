@@ -1,0 +1,537 @@
+(node:79823) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [0m[7m[37m dashboard [39m[27m[0m [2mapps/dashboard/src/app/core/services/[22m[1mauth.service.spec.ts[22m
+(node:79822) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:79821) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[0m[7m[1m[31m FAIL [39m[22m[27m[0m [0m[7m[37m dashboard [39m[27m[0m [2mapps/dashboard/src/app/features/dashboard/[22m[1mdashboard.component.spec.ts[22m
+[1m[31m  [1m● [22m[1mDashboardComponent - Drag-Drop › should organize tasks by status on load[39m[22m
+
+    TypeError: window.matchMedia is not a function
+[2m[22m
+[2m    [0m [90m 18 |[39m       [36mreturn[39m saved [33m===[39m [32m'true'[39m[22m
+[2m     [90m 19 |[39m     }[22m
+[2m    [31m[1m>[22m[2m[39m[90m 20 |[39m     [36mreturn[39m window[33m.[39mmatchMedia([32m'(prefers-color-scheme: dark)'[39m)[33m.[39mmatches[22m
+[2m     [90m    |[39m                   [31m[1m^[22m[2m[39m[22m
+[2m     [90m 21 |[39m   }[22m
+[2m     [90m 22 |[39m[22m
+[2m     [90m 23 |[39m   toggleTheme()[33m:[39m [36mvoid[39m {[0m[22m
+[2m[22m
+[2m      [2mat ThemeService.getInitialTheme ([22m[2msrc/app/core/services/theme.service.ts[2m:20:19)[22m[2m[22m
+[2m      [2mat new ThemeService ([22m[2msrc/app/core/services/theme.service.ts[2m:8:63)[22m[2m[22m
+[2m      [2mat Object.ThemeService_Factory [as factory] ([22m[2m../../ng:/ThemeService/ɵfac.js[2m:5:10)[22m[2m[22m
+[2m      [2mat [22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:3219:47[22m[2m[22m
+[2m      [2mat runInInjectorProfilerContext ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:866:9)[22m[2m[22m
+[2m      [2mat R3Injector.hydrate ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:3218:21)[22m[2m[22m
+[2m      [2mat R3Injector.get ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:3082:33)[22m[2m[22m
+[2m      [2mat R3Injector.get ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:3093:33)[22m[2m[22m
+[2m      [2mat ChainedInjector.get ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:15723:36)[22m[2m[22m
+[2m      [2mat lookupTokenUsingModuleInjector ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:5730:39)[22m[2m[22m
+[2m      [2mat getOrCreateInjectable ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:5778:12)[22m[2m[22m
+[2m      [2mat ɵɵdirectiveInject ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:11050:19)[22m[2m[22m
+[2m      [2mat NodeInjectorFactory.DashboardComponent_Factory [as factory] ([22m[2m../../ng:/DashboardComponent/ɵfac.js[2m:7:57)[22m[2m[22m
+[2m      [2mat getNodeInjectable ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:5984:44)[22m[2m[22m
+[2m      [2mat createRootComponent ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:15998:35)[22m[2m[22m
+[2m      [2mat ComponentFactory.create ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:15858:29)[22m[2m[22m
+[2m      [2mat initComponent ([22m[2m../../node_modules/@angular/core/fesm2022/testing.mjs[2m:1979:51)[22m[2m[22m
+[2m      [2mat _ZoneDelegate.invoke ([22m[2m../../node_modules/zone.js/bundles/zone.umd.js[2m:416:32)[22m[2m[22m
+[2m      [2mat Object.onInvoke ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:14882:33)[22m[2m[22m
+[2m      [2mat _ZoneDelegate.invoke ([22m[2m../../node_modules/zone.js/bundles/zone.umd.js[2m:415:38)[22m[2m[22m
+[2m      [2mat ZoneImpl.run ([22m[2m../../node_modules/zone.js/bundles/zone.umd.js[2m:147:47)[22m[2m[22m
+[2m      [2mat NgZone.run ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:14733:28)[22m[2m[22m
+[2m      [2mat _TestBedImpl.createComponent ([22m[2m../../node_modules/@angular/core/fesm2022/testing.mjs[2m:1990:41)[22m[2m[22m
+[2m      [2mat Function.createComponent ([22m[2m../../node_modules/@angular/core/fesm2022/testing.mjs[2m:1783:37)[22m[2m[22m
+[2m      [2mat [22m[2m[0m[36msrc/app/features/dashboard/dashboard.component.spec.ts[39m[0m[2m:87:23[22m[2m[22m
+
+[1m[31m  [1m● [22m[1mDashboardComponent - Drag-Drop › should reorder tasks within the same column[39m[22m
+
+    TypeError: window.matchMedia is not a function
+[2m[22m
+[2m    [0m [90m 18 |[39m       [36mreturn[39m saved [33m===[39m [32m'true'[39m[22m
+[2m     [90m 19 |[39m     }[22m
+[2m    [31m[1m>[22m[2m[39m[90m 20 |[39m     [36mreturn[39m window[33m.[39mmatchMedia([32m'(prefers-color-scheme: dark)'[39m)[33m.[39mmatches[22m
+[2m     [90m    |[39m                   [31m[1m^[22m[2m[39m[22m
+[2m     [90m 21 |[39m   }[22m
+[2m     [90m 22 |[39m[22m
+[2m     [90m 23 |[39m   toggleTheme()[33m:[39m [36mvoid[39m {[0m[22m
+[2m[22m
+[2m      [2mat ThemeService.getInitialTheme ([22m[2msrc/app/core/services/theme.service.ts[2m:20:19)[22m[2m[22m
+[2m      [2mat new ThemeService ([22m[2msrc/app/core/services/theme.service.ts[2m:8:63)[22m[2m[22m
+[2m      [2mat Object.ThemeService_Factory [as factory] ([22m[2m../../ng:/ThemeService/ɵfac.js[2m:5:10)[22m[2m[22m
+[2m      [2mat [22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:3219:47[22m[2m[22m
+[2m      [2mat runInInjectorProfilerContext ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:866:9)[22m[2m[22m
+[2m      [2mat R3Injector.hydrate ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:3218:21)[22m[2m[22m
+[2m      [2mat R3Injector.get ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:3082:33)[22m[2m[22m
+[2m      [2mat R3Injector.get ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:3093:33)[22m[2m[22m
+[2m      [2mat ChainedInjector.get ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:15723:36)[22m[2m[22m
+[2m      [2mat lookupTokenUsingModuleInjector ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:5730:39)[22m[2m[22m
+[2m      [2mat getOrCreateInjectable ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:5778:12)[22m[2m[22m
+[2m      [2mat ɵɵdirectiveInject ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:11050:19)[22m[2m[22m
+[2m      [2mat NodeInjectorFactory.DashboardComponent_Factory [as factory] ([22m[2m../../ng:/DashboardComponent/ɵfac.js[2m:7:57)[22m[2m[22m
+[2m      [2mat getNodeInjectable ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:5984:44)[22m[2m[22m
+[2m      [2mat createRootComponent ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:15998:35)[22m[2m[22m
+[2m      [2mat ComponentFactory.create ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:15858:29)[22m[2m[22m
+[2m      [2mat initComponent ([22m[2m../../node_modules/@angular/core/fesm2022/testing.mjs[2m:1979:51)[22m[2m[22m
+[2m      [2mat _ZoneDelegate.invoke ([22m[2m../../node_modules/zone.js/bundles/zone.umd.js[2m:416:32)[22m[2m[22m
+[2m      [2mat Object.onInvoke ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:14882:33)[22m[2m[22m
+[2m      [2mat _ZoneDelegate.invoke ([22m[2m../../node_modules/zone.js/bundles/zone.umd.js[2m:415:38)[22m[2m[22m
+[2m      [2mat ZoneImpl.run ([22m[2m../../node_modules/zone.js/bundles/zone.umd.js[2m:147:47)[22m[2m[22m
+[2m      [2mat NgZone.run ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:14733:28)[22m[2m[22m
+[2m      [2mat _TestBedImpl.createComponent ([22m[2m../../node_modules/@angular/core/fesm2022/testing.mjs[2m:1990:41)[22m[2m[22m
+[2m      [2mat Function.createComponent ([22m[2m../../node_modules/@angular/core/fesm2022/testing.mjs[2m:1783:37)[22m[2m[22m
+[2m      [2mat [22m[2m[0m[36msrc/app/features/dashboard/dashboard.component.spec.ts[39m[0m[2m:87:23[22m[2m[22m
+
+[1m[31m  [1m● [22m[1mDashboardComponent - Drag-Drop › should transfer task to different column and update status[39m[22m
+
+    TypeError: window.matchMedia is not a function
+[2m[22m
+[2m    [0m [90m 18 |[39m       [36mreturn[39m saved [33m===[39m [32m'true'[39m[22m
+[2m     [90m 19 |[39m     }[22m
+[2m    [31m[1m>[22m[2m[39m[90m 20 |[39m     [36mreturn[39m window[33m.[39mmatchMedia([32m'(prefers-color-scheme: dark)'[39m)[33m.[39mmatches[22m
+[2m     [90m    |[39m                   [31m[1m^[22m[2m[39m[22m
+[2m     [90m 21 |[39m   }[22m
+[2m     [90m 22 |[39m[22m
+[2m     [90m 23 |[39m   toggleTheme()[33m:[39m [36mvoid[39m {[0m[22m
+[2m[22m
+[2m      [2mat ThemeService.getInitialTheme ([22m[2msrc/app/core/services/theme.service.ts[2m:20:19)[22m[2m[22m
+[2m      [2mat new ThemeService ([22m[2msrc/app/core/services/theme.service.ts[2m:8:63)[22m[2m[22m
+[2m      [2mat Object.ThemeService_Factory [as factory] ([22m[2m../../ng:/ThemeService/ɵfac.js[2m:5:10)[22m[2m[22m
+[2m      [2mat [22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:3219:47[22m[2m[22m
+[2m      [2mat runInInjectorProfilerContext ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:866:9)[22m[2m[22m
+[2m      [2mat R3Injector.hydrate ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:3218:21)[22m[2m[22m
+[2m      [2mat R3Injector.get ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:3082:33)[22m[2m[22m
+[2m      [2mat R3Injector.get ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:3093:33)[22m[2m[22m
+[2m      [2mat ChainedInjector.get ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:15723:36)[22m[2m[22m
+[2m      [2mat lookupTokenUsingModuleInjector ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:5730:39)[22m[2m[22m
+[2m      [2mat getOrCreateInjectable ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:5778:12)[22m[2m[22m
+[2m      [2mat ɵɵdirectiveInject ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:11050:19)[22m[2m[22m
+[2m      [2mat NodeInjectorFactory.DashboardComponent_Factory [as factory] ([22m[2m../../ng:/DashboardComponent/ɵfac.js[2m:7:57)[22m[2m[22m
+[2m      [2mat getNodeInjectable ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:5984:44)[22m[2m[22m
+[2m      [2mat createRootComponent ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:15998:35)[22m[2m[22m
+[2m      [2mat ComponentFactory.create ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:15858:29)[22m[2m[22m
+[2m      [2mat initComponent ([22m[2m../../node_modules/@angular/core/fesm2022/testing.mjs[2m:1979:51)[22m[2m[22m
+[2m      [2mat _ZoneDelegate.invoke ([22m[2m../../node_modules/zone.js/bundles/zone.umd.js[2m:416:32)[22m[2m[22m
+[2m      [2mat Object.onInvoke ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:14882:33)[22m[2m[22m
+[2m      [2mat _ZoneDelegate.invoke ([22m[2m../../node_modules/zone.js/bundles/zone.umd.js[2m:415:38)[22m[2m[22m
+[2m      [2mat ZoneImpl.run ([22m[2m../../node_modules/zone.js/bundles/zone.umd.js[2m:147:47)[22m[2m[22m
+[2m      [2mat NgZone.run ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:14733:28)[22m[2m[22m
+[2m      [2mat _TestBedImpl.createComponent ([22m[2m../../node_modules/@angular/core/fesm2022/testing.mjs[2m:1990:41)[22m[2m[22m
+[2m      [2mat Function.createComponent ([22m[2m../../node_modules/@angular/core/fesm2022/testing.mjs[2m:1783:37)[22m[2m[22m
+[2m      [2mat [22m[2m[0m[36msrc/app/features/dashboard/dashboard.component.spec.ts[39m[0m[2m:87:23[22m[2m[22m
+
+[1m[31m  [1m● [22m[1mDashboardComponent - Drag-Drop › should update orderIndex when dragging within column[39m[22m
+
+    TypeError: window.matchMedia is not a function
+[2m[22m
+[2m    [0m [90m 18 |[39m       [36mreturn[39m saved [33m===[39m [32m'true'[39m[22m
+[2m     [90m 19 |[39m     }[22m
+[2m    [31m[1m>[22m[2m[39m[90m 20 |[39m     [36mreturn[39m window[33m.[39mmatchMedia([32m'(prefers-color-scheme: dark)'[39m)[33m.[39mmatches[22m
+[2m     [90m    |[39m                   [31m[1m^[22m[2m[39m[22m
+[2m     [90m 21 |[39m   }[22m
+[2m     [90m 22 |[39m[22m
+[2m     [90m 23 |[39m   toggleTheme()[33m:[39m [36mvoid[39m {[0m[22m
+[2m[22m
+[2m      [2mat ThemeService.getInitialTheme ([22m[2msrc/app/core/services/theme.service.ts[2m:20:19)[22m[2m[22m
+[2m      [2mat new ThemeService ([22m[2msrc/app/core/services/theme.service.ts[2m:8:63)[22m[2m[22m
+[2m      [2mat Object.ThemeService_Factory [as factory] ([22m[2m../../ng:/ThemeService/ɵfac.js[2m:5:10)[22m[2m[22m
+[2m      [2mat [22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:3219:47[22m[2m[22m
+[2m      [2mat runInInjectorProfilerContext ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:866:9)[22m[2m[22m
+[2m      [2mat R3Injector.hydrate ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:3218:21)[22m[2m[22m
+[2m      [2mat R3Injector.get ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:3082:33)[22m[2m[22m
+[2m      [2mat R3Injector.get ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:3093:33)[22m[2m[22m
+[2m      [2mat ChainedInjector.get ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:15723:36)[22m[2m[22m
+[2m      [2mat lookupTokenUsingModuleInjector ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:5730:39)[22m[2m[22m
+[2m      [2mat getOrCreateInjectable ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:5778:12)[22m[2m[22m
+[2m      [2mat ɵɵdirectiveInject ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:11050:19)[22m[2m[22m
+[2m      [2mat NodeInjectorFactory.DashboardComponent_Factory [as factory] ([22m[2m../../ng:/DashboardComponent/ɵfac.js[2m:7:57)[22m[2m[22m
+[2m      [2mat getNodeInjectable ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:5984:44)[22m[2m[22m
+[2m      [2mat createRootComponent ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:15998:35)[22m[2m[22m
+[2m      [2mat ComponentFactory.create ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:15858:29)[22m[2m[22m
+[2m      [2mat initComponent ([22m[2m../../node_modules/@angular/core/fesm2022/testing.mjs[2m:1979:51)[22m[2m[22m
+[2m      [2mat _ZoneDelegate.invoke ([22m[2m../../node_modules/zone.js/bundles/zone.umd.js[2m:416:32)[22m[2m[22m
+[2m      [2mat Object.onInvoke ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:14882:33)[22m[2m[22m
+[2m      [2mat _ZoneDelegate.invoke ([22m[2m../../node_modules/zone.js/bundles/zone.umd.js[2m:415:38)[22m[2m[22m
+[2m      [2mat ZoneImpl.run ([22m[2m../../node_modules/zone.js/bundles/zone.umd.js[2m:147:47)[22m[2m[22m
+[2m      [2mat NgZone.run ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:14733:28)[22m[2m[22m
+[2m      [2mat _TestBedImpl.createComponent ([22m[2m../../node_modules/@angular/core/fesm2022/testing.mjs[2m:1990:41)[22m[2m[22m
+[2m      [2mat Function.createComponent ([22m[2m../../node_modules/@angular/core/fesm2022/testing.mjs[2m:1783:37)[22m[2m[22m
+[2m      [2mat [22m[2m[0m[36msrc/app/features/dashboard/dashboard.component.spec.ts[39m[0m[2m:87:23[22m[2m[22m
+
+[1m[31m  [1m● [22m[1mDashboardComponent - Drag-Drop › should persist both status and orderIndex when moving across columns[39m[22m
+
+    TypeError: window.matchMedia is not a function
+[2m[22m
+[2m    [0m [90m 18 |[39m       [36mreturn[39m saved [33m===[39m [32m'true'[39m[22m
+[2m     [90m 19 |[39m     }[22m
+[2m    [31m[1m>[22m[2m[39m[90m 20 |[39m     [36mreturn[39m window[33m.[39mmatchMedia([32m'(prefers-color-scheme: dark)'[39m)[33m.[39mmatches[22m
+[2m     [90m    |[39m                   [31m[1m^[22m[2m[39m[22m
+[2m     [90m 21 |[39m   }[22m
+[2m     [90m 22 |[39m[22m
+[2m     [90m 23 |[39m   toggleTheme()[33m:[39m [36mvoid[39m {[0m[22m
+[2m[22m
+[2m      [2mat ThemeService.getInitialTheme ([22m[2msrc/app/core/services/theme.service.ts[2m:20:19)[22m[2m[22m
+[2m      [2mat new ThemeService ([22m[2msrc/app/core/services/theme.service.ts[2m:8:63)[22m[2m[22m
+[2m      [2mat Object.ThemeService_Factory [as factory] ([22m[2m../../ng:/ThemeService/ɵfac.js[2m:5:10)[22m[2m[22m
+[2m      [2mat [22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:3219:47[22m[2m[22m
+[2m      [2mat runInInjectorProfilerContext ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:866:9)[22m[2m[22m
+[2m      [2mat R3Injector.hydrate ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:3218:21)[22m[2m[22m
+[2m      [2mat R3Injector.get ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:3082:33)[22m[2m[22m
+[2m      [2mat R3Injector.get ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:3093:33)[22m[2m[22m
+[2m      [2mat ChainedInjector.get ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:15723:36)[22m[2m[22m
+[2m      [2mat lookupTokenUsingModuleInjector ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:5730:39)[22m[2m[22m
+[2m      [2mat getOrCreateInjectable ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:5778:12)[22m[2m[22m
+[2m      [2mat ɵɵdirectiveInject ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:11050:19)[22m[2m[22m
+[2m      [2mat NodeInjectorFactory.DashboardComponent_Factory [as factory] ([22m[2m../../ng:/DashboardComponent/ɵfac.js[2m:7:57)[22m[2m[22m
+[2m      [2mat getNodeInjectable ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:5984:44)[22m[2m[22m
+[2m      [2mat createRootComponent ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:15998:35)[22m[2m[22m
+[2m      [2mat ComponentFactory.create ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:15858:29)[22m[2m[22m
+[2m      [2mat initComponent ([22m[2m../../node_modules/@angular/core/fesm2022/testing.mjs[2m:1979:51)[22m[2m[22m
+[2m      [2mat _ZoneDelegate.invoke ([22m[2m../../node_modules/zone.js/bundles/zone.umd.js[2m:416:32)[22m[2m[22m
+[2m      [2mat Object.onInvoke ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:14882:33)[22m[2m[22m
+[2m      [2mat _ZoneDelegate.invoke ([22m[2m../../node_modules/zone.js/bundles/zone.umd.js[2m:415:38)[22m[2m[22m
+[2m      [2mat ZoneImpl.run ([22m[2m../../node_modules/zone.js/bundles/zone.umd.js[2m:147:47)[22m[2m[22m
+[2m      [2mat NgZone.run ([22m[2m../../node_modules/@angular/core/fesm2022/core.mjs[2m:14733:28)[22m[2m[22m
+[2m      [2mat _TestBedImpl.createComponent ([22m[2m../../node_modules/@angular/core/fesm2022/testing.mjs[2m:1990:41)[22m[2m[22m
+[2m      [2mat Function.createComponent ([22m[2m../../node_modules/@angular/core/fesm2022/testing.mjs[2m:1783:37)[22m[2m[22m
+[2m      [2mat [22m[2m[0m[36msrc/app/features/dashboard/dashboard.component.spec.ts[39m[0m[2m:87:23[22m[2m[22m
+
+[0m[7m[1m[31m FAIL [39m[22m[27m[0m [0m[7m[37m dashboard [39m[27m[0m [2mapps/dashboard/src/app/core/services/[22m[1mtasks-store.service.spec.ts[22m ([0m[1m[41m11.531 s[49m[22m[0m)
+  [1m● [22mConsole
+
+    [2m[31mconsole.error[39m[22m
+[31m      Error: Uncaught [Error: [2mexpect([22m[31mreceived[39m[31m[2m).[22mtoBe[2m([22m[32mexpected[39m[31m[2m) // Object.is equality[22m[39m
+[31m      [39m
+[31m      Expected: [32mtrue[39m[31m[39m
+[31m      Received: [31mfalse[39m[31m][39m
+[31m          at reportException (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/jest-environment-jsdom/node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:66:24)[39m
+[31m          at Timeout.task [as _onTimeout] (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/jest-environment-jsdom/node_modules/jsdom/lib/jsdom/browser/Window.js:525:9)[39m
+[31m          at listOnTimeout (node:internal/timers:594:17)[39m
+[31m          at processTimers (node:internal/timers:529:7) {[39m
+[31m        detail: JestAssertionError: [2mexpect([22m[31mreceived[39m[31m[2m).[22mtoBe[2m([22m[32mexpected[39m[31m[2m) // Object.is equality[22m[39m
+[31m        [39m
+[31m        Expected: [32mtrue[39m[31m[39m
+[31m        Received: [31mfalse[39m[31m[39m
+[31m            at Object.next (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/apps/dashboard/src/app/core/services/tasks-store.service.spec.ts:89:36)[39m
+[31m            at ConsumerObserver.Object.<anonymous>.ConsumerObserver.next (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/rxjs/src/internal/Subscriber.ts:155:25)[39m
+[31m            at SafeSubscriber.Object.<anonymous>.Subscriber._next (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/rxjs/src/internal/Subscriber.ts:113:22)[39m
+[31m            at SafeSubscriber.Object.<anonymous>.Subscriber.next (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/rxjs/src/internal/Subscriber.ts:71:12)[39m
+[31m            at /Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/rxjs/src/internal/Subject.ts:67:20[39m
+[31m            at Object.errorContext (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/rxjs/src/internal/util/errorContext.ts:29:5)[39m
+[31m            at BehaviorSubject.Object.<anonymous>.Subject.next (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/rxjs/src/internal/Subject.ts:60:5)[39m
+[31m            at BehaviorSubject.Object.<anonymous>.BehaviorSubject.next (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/rxjs/src/internal/BehaviorSubject.ts:35:15)[39m
+[31m            at TasksStoreService.loadTasks (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/apps/dashboard/src/app/core/services/tasks-store.service.ts:24:25)[39m
+[31m            at /Users/lisizejnullahu/Documents/GitHub/secure-task-managment/apps/dashboard/src/app/core/services/tasks-store.service.spec.ts:95:15[39m
+[31m            at _ZoneDelegate.invoke (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/zone.js/bundles/zone.umd.js:416:32)[39m
+[31m            at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/zone.js/bundles/zone-testing.umd.js:2176:43)[39m
+[31m            at _ZoneDelegate.invoke (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/zone.js/bundles/zone.umd.js:415:38)[39m
+[31m            at ZoneImpl.run (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/zone.js/bundles/zone.umd.js:147:47)[39m
+[31m            at Object.wrappedFunc (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/zone.js/bundles/zone-testing.umd.js:450:38)[39m
+[31m            at Promise.then.completed (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/jest/node_modules/jest-circus/build/utils.js:290:26)[39m
+[31m            at new Promise (<anonymous>)[39m
+[31m            at callAsyncCircusFn (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/jest/node_modules/jest-circus/build/utils.js:231:10)[39m
+[31m            at _callCircusTest (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/jest/node_modules/jest-circus/build/run.js:316:40)[39m
+[31m            at processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m            at _runTest (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/jest/node_modules/jest-circus/build/run.js:252:3)[39m
+[31m            at _runTestsForDescribeBlock (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/jest/node_modules/jest-circus/build/run.js:126:9)[39m
+[31m            at _runTestsForDescribeBlock (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/jest/node_modules/jest-circus/build/run.js:121:9)[39m
+[31m            at _runTestsForDescribeBlock (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/jest/node_modules/jest-circus/build/run.js:121:9)[39m
+[31m            at run (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/jest/node_modules/jest-circus/build/run.js:71:3)[39m
+[31m            at runAndTransformResultsToJestFormat (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21) {[39m
+[31m          matcherResult: {[39m
+[31m            actual: false,[39m
+[31m            expected: true,[39m
+[31m            message: '\x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +[39m
+[31m              '\n' +[39m
+[31m              'Expected: \x1B[32mtrue\x1B[39m\n' +[39m
+[31m              'Received: \x1B[31mfalse\x1B[39m',[39m
+[31m            name: 'toBe',[39m
+[31m            pass: false[39m
+[31m          }[39m
+[31m        },[39m
+[31m        type: 'unhandled exception'[39m
+[31m      }[39m
+[2m[22m
+[2m      [2mat VirtualConsole.<anonymous> ([22m[2m../../node_modules/jest-environment-jsdom/build/index.js[2m:63:23)[22m[2m[22m
+
+    [2m[31mconsole.error[39m[22m
+[31m      Error: Uncaught [Error: [2mexpect([22m[31mjest.fn()[39m[31m[2m).[22mtoHaveBeenCalledWith[2m([22m[32m...expected[39m[31m[2m)[22m[39m
+[31m      [39m
+[31m      Expected: [32m{"category": "WORK", "status": "DONE"}[39m[31m[39m
+[31m      [39m
+[31m      Number of calls: [31m0[39m[31m][39m
+[31m          at reportException (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/jest-environment-jsdom/node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:66:24)[39m
+[31m          at Timeout.task [as _onTimeout] (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/jest-environment-jsdom/node_modules/jsdom/lib/jsdom/browser/Window.js:525:9)[39m
+[31m          at listOnTimeout (node:internal/timers:594:17)[39m
+[31m          at processTimers (node:internal/timers:529:7) {[39m
+[31m        detail: JestAssertionError: [2mexpect([22m[31mjest.fn()[39m[31m[2m).[22mtoHaveBeenCalledWith[2m([22m[32m...expected[39m[31m[2m)[22m[39m
+[31m        [39m
+[31m        Expected: [32m{"category": "WORK", "status": "DONE"}[39m[31m[39m
+[31m        [39m
+[31m        Number of calls: [31m0[39m[31m[39m
+[31m            at Object.next (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/apps/dashboard/src/app/core/services/tasks-store.service.spec.ts:214:41)[39m
+[31m            at ConsumerObserver.Object.<anonymous>.ConsumerObserver.next (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/rxjs/src/internal/Subscriber.ts:155:25)[39m
+[31m            at SafeSubscriber.Object.<anonymous>.Subscriber._next (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/rxjs/src/internal/Subscriber.ts:113:22)[39m
+[31m            at SafeSubscriber.Object.<anonymous>.Subscriber.next (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/rxjs/src/internal/Subscriber.ts:71:12)[39m
+[31m            at /Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/rxjs/src/internal/Subject.ts:67:20[39m
+[31m            at Object.errorContext (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/rxjs/src/internal/util/errorContext.ts:29:5)[39m
+[31m            at BehaviorSubject.Object.<anonymous>.Subject.next (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/rxjs/src/internal/Subject.ts:60:5)[39m
+[31m            at BehaviorSubject.Object.<anonymous>.BehaviorSubject.next (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/rxjs/src/internal/BehaviorSubject.ts:35:15)[39m
+[31m            at TasksStoreService.setFilters (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/apps/dashboard/src/app/core/services/tasks-store.service.ts:113:25)[39m
+[31m            at /Users/lisizejnullahu/Documents/GitHub/secure-task-managment/apps/dashboard/src/app/core/services/tasks-store.service.spec.ts:219:15[39m
+[31m            at _ZoneDelegate.invoke (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/zone.js/bundles/zone.umd.js:416:32)[39m
+[31m            at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/zone.js/bundles/zone-testing.umd.js:2176:43)[39m
+[31m            at _ZoneDelegate.invoke (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/zone.js/bundles/zone.umd.js:415:38)[39m
+[31m            at ZoneImpl.run (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/zone.js/bundles/zone.umd.js:147:47)[39m
+[31m            at Object.wrappedFunc (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/zone.js/bundles/zone-testing.umd.js:450:38)[39m
+[31m            at Promise.then.completed (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/jest/node_modules/jest-circus/build/utils.js:290:26)[39m
+[31m            at new Promise (<anonymous>)[39m
+[31m            at callAsyncCircusFn (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/jest/node_modules/jest-circus/build/utils.js:231:10)[39m
+[31m            at _callCircusTest (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/jest/node_modules/jest-circus/build/run.js:316:40)[39m
+[31m            at _runTest (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/jest/node_modules/jest-circus/build/run.js:252:3)[39m
+[31m            at _runTestsForDescribeBlock (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/jest/node_modules/jest-circus/build/run.js:126:9)[39m
+[31m            at _runTestsForDescribeBlock (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/jest/node_modules/jest-circus/build/run.js:121:9)[39m
+[31m            at _runTestsForDescribeBlock (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/jest/node_modules/jest-circus/build/run.js:121:9)[39m
+[31m            at run (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/jest/node_modules/jest-circus/build/run.js:71:3)[39m
+[31m            at runAndTransformResultsToJestFormat (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21) {[39m
+[31m          matcherResult: {[39m
+[31m            message: '\x1B[2mexpect(\x1B[22m\x1B[31mjest.fn()\x1B[39m\x1B[2m).\x1B[22mtoHaveBeenCalledWith\x1B[2m(\x1B[22m\x1B[32m...expected\x1B[39m\x1B[2m)\x1B[22m\n' +[39m
+[31m              '\n' +[39m
+[31m              'Expected: \x1B[32m{"category": "WORK", "status": "DONE"}\x1B[39m\n' +[39m
+[31m              '\n' +[39m
+[31m              'Number of calls: \x1B[31m0\x1B[39m',[39m
+[31m            pass: false[39m
+[31m          }[39m
+[31m        },[39m
+[31m        type: 'unhandled exception'[39m
+[31m      }[39m
+[2m[22m
+[2m      [2mat VirtualConsole.<anonymous> ([22m[2m../../node_modules/jest-environment-jsdom/build/index.js[2m:63:23)[22m[2m[22m
+
+    [2m[31mconsole.error[39m[22m
+[31m      Error: Uncaught [Error: [2mexpect([22m[31mjest.fn()[39m[31m[2m).[22mtoHaveBeenCalledWith[2m([22m[32m...expected[39m[31m[2m)[22m[39m
+[31m      [39m
+[31m      Expected: [32m{"category": "WORK", "status": "DONE"}[39m[31m[39m
+[31m      [39m
+[31m      Number of calls: [31m0[39m[31m][39m
+[31m          at reportException (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/jest-environment-jsdom/node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:66:24)[39m
+[31m          at Timeout.task [as _onTimeout] (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/jest-environment-jsdom/node_modules/jsdom/lib/jsdom/browser/Window.js:525:9)[39m
+[31m          at listOnTimeout (node:internal/timers:594:17)[39m
+[31m          at processTimers (node:internal/timers:529:7) {[39m
+[31m        detail: JestAssertionError: [2mexpect([22m[31mjest.fn()[39m[31m[2m).[22mtoHaveBeenCalledWith[2m([22m[32m...expected[39m[31m[2m)[22m[39m
+[31m        [39m
+[31m        Expected: [32m{"category": "WORK", "status": "DONE"}[39m[31m[39m
+[31m        [39m
+[31m        Number of calls: [31m0[39m[31m[39m
+[31m            at Object.next (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/apps/dashboard/src/app/core/services/tasks-store.service.spec.ts:214:41)[39m
+[31m            at ConsumerObserver.Object.<anonymous>.ConsumerObserver.next (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/rxjs/src/internal/Subscriber.ts:155:25)[39m
+[31m            at SafeSubscriber.Object.<anonymous>.Subscriber._next (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/rxjs/src/internal/Subscriber.ts:113:22)[39m
+[31m            at SafeSubscriber.Object.<anonymous>.Subscriber.next (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/rxjs/src/internal/Subscriber.ts:71:12)[39m
+[31m            at /Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/rxjs/src/internal/Subject.ts:67:20[39m
+[31m            at Object.errorContext (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/rxjs/src/internal/util/errorContext.ts:29:5)[39m
+[31m            at BehaviorSubject.Object.<anonymous>.Subject.next (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/rxjs/src/internal/Subject.ts:60:5)[39m
+[31m            at BehaviorSubject.Object.<anonymous>.BehaviorSubject.next (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/rxjs/src/internal/BehaviorSubject.ts:35:15)[39m
+[31m            at TasksStoreService.loadTasks (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/apps/dashboard/src/app/core/services/tasks-store.service.ts:28:27)[39m
+[31m            at TasksStoreService.setFilters (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/apps/dashboard/src/app/core/services/tasks-store.service.ts:114:10)[39m
+[31m            at /Users/lisizejnullahu/Documents/GitHub/secure-task-managment/apps/dashboard/src/app/core/services/tasks-store.service.spec.ts:219:15[39m
+[31m            at _ZoneDelegate.invoke (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/zone.js/bundles/zone.umd.js:416:32)[39m
+[31m            at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/zone.js/bundles/zone-testing.umd.js:2176:43)[39m
+[31m            at _ZoneDelegate.invoke (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/zone.js/bundles/zone.umd.js:415:38)[39m
+[31m            at ZoneImpl.run (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/zone.js/bundles/zone.umd.js:147:47)[39m
+[31m            at Object.wrappedFunc (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/zone.js/bundles/zone-testing.umd.js:450:38)[39m
+[31m            at Promise.then.completed (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/jest/node_modules/jest-circus/build/utils.js:290:26)[39m
+[31m            at new Promise (<anonymous>)[39m
+[31m            at callAsyncCircusFn (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/jest/node_modules/jest-circus/build/utils.js:231:10)[39m
+[31m            at _callCircusTest (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/jest/node_modules/jest-circus/build/run.js:316:40)[39m
+[31m            at _runTest (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/jest/node_modules/jest-circus/build/run.js:252:3)[39m
+[31m            at _runTestsForDescribeBlock (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/jest/node_modules/jest-circus/build/run.js:126:9)[39m
+[31m            at _runTestsForDescribeBlock (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/jest/node_modules/jest-circus/build/run.js:121:9)[39m
+[31m            at _runTestsForDescribeBlock (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/jest/node_modules/jest-circus/build/run.js:121:9)[39m
+[31m            at run (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/jest/node_modules/jest-circus/build/run.js:71:3)[39m
+[31m            at runAndTransformResultsToJestFormat (/Users/lisizejnullahu/Documents/GitHub/secure-task-managment/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21) {[39m
+[31m          matcherResult: {[39m
+[31m            message: '\x1B[2mexpect(\x1B[22m\x1B[31mjest.fn()\x1B[39m\x1B[2m).\x1B[22mtoHaveBeenCalledWith\x1B[2m(\x1B[22m\x1B[32m...expected\x1B[39m\x1B[2m)\x1B[22m\n' +[39m
+[31m              '\n' +[39m
+[31m              'Expected: \x1B[32m{"category": "WORK", "status": "DONE"}\x1B[39m\n' +[39m
+[31m              '\n' +[39m
+[31m              'Number of calls: \x1B[31m0\x1B[39m',[39m
+[31m            pass: false[39m
+[31m          }[39m
+[31m        },[39m
+[31m        type: 'unhandled exception'[39m
+[31m      }[39m
+[2m[22m
+[2m      [2mat VirtualConsole.<anonymous> ([22m[2m../../node_modules/jest-environment-jsdom/build/index.js[2m:63:23)[22m[2m[22m
+
+[1m[31m  [1m● [22m[1mTasksStoreService › loadTasks › should set loading to true while loading[39m[22m
+
+    [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+    Expected: [32mtrue[39m
+    Received: [31mfalse[39m
+[2m[22m
+[2m    [0m [90m 87 |[39m         loadingStates[33m.[39mpush(loading)[22m
+[2m     [90m 88 |[39m         [36mif[39m (loadingStates[33m.[39mlength [33m===[39m [35m2[39m) {[22m
+[2m    [31m[1m>[22m[2m[39m[90m 89 |[39m           expect(loadingStates[[35m0[39m])[33m.[39mtoBe([36mtrue[39m) [90m// Loading starts[39m[22m
+[2m     [90m    |[39m                                    [31m[1m^[22m[2m[39m[22m
+[2m     [90m 90 |[39m           expect(loadingStates[[35m1[39m])[33m.[39mtoBe([36mfalse[39m) [90m// Loading ends[39m[22m
+[2m     [90m 91 |[39m           done()[22m
+[2m     [90m 92 |[39m         }[0m[22m
+[2m[22m
+[2m      [2mat Object.next ([22m[2m[0m[36msrc/app/core/services/tasks-store.service.spec.ts[39m[0m[2m:89:36)[22m[2m[22m
+[2m      [2mat ConsumerObserver.Object.<anonymous>.ConsumerObserver.next ([22m[2m../../node_modules/rxjs/src/internal/Subscriber.ts[2m:155:25)[22m[2m[22m
+[2m      [2mat SafeSubscriber.Object.<anonymous>.Subscriber._next ([22m[2m../../node_modules/rxjs/src/internal/Subscriber.ts[2m:113:22)[22m[2m[22m
+[2m      [2mat SafeSubscriber.Object.<anonymous>.Subscriber.next ([22m[2m../../node_modules/rxjs/src/internal/Subscriber.ts[2m:71:12)[22m[2m[22m
+[2m      [2mat [22m[2m../../node_modules/rxjs/src/internal/Subject.ts[2m:67:20[22m[2m[22m
+[2m      [2mat Object.errorContext ([22m[2m../../node_modules/rxjs/src/internal/util/errorContext.ts[2m:29:5)[22m[2m[22m
+[2m      [2mat BehaviorSubject.Object.<anonymous>.Subject.next ([22m[2m../../node_modules/rxjs/src/internal/Subject.ts[2m:60:5)[22m[2m[22m
+[2m      [2mat BehaviorSubject.Object.<anonymous>.BehaviorSubject.next ([22m[2m../../node_modules/rxjs/src/internal/BehaviorSubject.ts[2m:35:15)[22m[2m[22m
+[2m      [2mat TasksStoreService.loadTasks ([22m[2msrc/app/core/services/tasks-store.service.ts[2m:24:25)[22m[2m[22m
+[2m      [2mat [22m[2m[0m[36msrc/app/core/services/tasks-store.service.spec.ts[39m[0m[2m:95:15[22m[2m[22m
+[2m      [2mat _ZoneDelegate.invoke ([22m[2m../../node_modules/zone.js/bundles/zone.umd.js[2m:416:32)[22m[2m[22m
+[2m      [2mat ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke ([22m[2m../../node_modules/zone.js/bundles/zone-testing.umd.js[2m:2176:43)[22m[2m[22m
+[2m      [2mat _ZoneDelegate.invoke ([22m[2m../../node_modules/zone.js/bundles/zone.umd.js[2m:415:38)[22m[2m[22m
+[2m      [2mat ZoneImpl.run ([22m[2m../../node_modules/zone.js/bundles/zone.umd.js[2m:147:47)[22m[2m[22m
+[2m      [2mat Object.wrappedFunc ([22m[2m../../node_modules/zone.js/bundles/zone-testing.umd.js[2m:450:38)[22m[2m[22m
+
+[1m[31m  [1m● [22m[1mTasksStoreService › loadTasks › should set loading to true while loading[39m[22m
+
+    thrown: "Exceeded timeout of 5000 ms for a test while waiting for `done()` to be called.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+[2m[22m
+[2m    [0m [90m 80 |[39m     })[22m
+[2m     [90m 81 |[39m[22m
+[2m    [31m[1m>[22m[2m[39m[90m 82 |[39m     it([32m'should set loading to true while loading'[39m[33m,[39m (done) [33m=>[39m {[22m
+[2m     [90m    |[39m     [31m[1m^[22m[2m[39m[22m
+[2m     [90m 83 |[39m       tasksService[33m.[39mgetTasks[33m.[39mmockReturnValue([36mof[39m(mockTasks))[22m
+[2m     [90m 84 |[39m[22m
+[2m     [90m 85 |[39m       [36mlet[39m loadingStates[33m:[39m boolean[] [33m=[39m [][0m[22m
+[2m[22m
+[2m      [2mat context.<computed> ([22m[2m../../node_modules/zone.js/bundles/zone-testing.umd.js[2m:492:43)[22m[2m[22m
+[2m      [2mat [22m[2m[0m[36msrc/app/core/services/tasks-store.service.spec.ts[39m[0m[2m:82:5[22m[2m[22m
+[2m      [2mat _ZoneDelegate.invoke ([22m[2m../../node_modules/zone.js/bundles/zone.umd.js[2m:416:32)[22m[2m[22m
+[2m      [2mat ZoneImpl.run ([22m[2m../../node_modules/zone.js/bundles/zone.umd.js[2m:147:47)[22m[2m[22m
+[2m      [2mat [22m[2m../../node_modules/zone.js/bundles/zone-testing.umd.js[2m:426:37[22m[2m[22m
+[2m      [2mat context.<computed> ([22m[2m../../node_modules/zone.js/bundles/zone-testing.umd.js[2m:474:43)[22m[2m[22m
+[2m      [2mat [22m[2m[0m[36msrc/app/core/services/tasks-store.service.spec.ts[39m[0m[2m:65:3[22m[2m[22m
+[2m      [2mat _ZoneDelegate.invoke ([22m[2m../../node_modules/zone.js/bundles/zone.umd.js[2m:416:32)[22m[2m[22m
+[2m      [2mat ZoneImpl.run ([22m[2m../../node_modules/zone.js/bundles/zone.umd.js[2m:147:47)[22m[2m[22m
+[2m      [2mat [22m[2m../../node_modules/zone.js/bundles/zone-testing.umd.js[2m:426:37[22m[2m[22m
+[2m      [2mat context.<computed> ([22m[2m../../node_modules/zone.js/bundles/zone-testing.umd.js[2m:474:43)[22m[2m[22m
+[2m      [2mat Object.<anonymous> ([22m[2m[0m[36msrc/app/core/services/tasks-store.service.spec.ts[39m[0m[2m:11:1)[22m[2m[22m
+
+[1m[31m  [1m● [22m[1mTasksStoreService › loadTasks › should handle errors when loading tasks[39m[22m
+
+    Failed to load tasks
+[2m[22m
+[2m    [0m [90m 111 |[39m[22m
+[2m     [90m 112 |[39m     it([32m'should handle errors when loading tasks'[39m[33m,[39m (done) [33m=>[39m {[22m
+[2m    [31m[1m>[22m[2m[39m[90m 113 |[39m       [36mconst[39m error [33m=[39m [36mnew[39m [33mError[39m([32m'Failed to load tasks'[39m)[22m
+[2m     [90m     |[39m                     [31m[1m^[22m[2m[39m[22m
+[2m     [90m 114 |[39m       tasksService[33m.[39mgetTasks[33m.[39mmockReturnValue([22m
+[2m     [90m 115 |[39m         [36mnew[39m ([36mclass[39m [36mextends[39m [33mError[39m {[22m
+[2m     [90m 116 |[39m           constructor() {[0m[22m
+[2m[22m
+[2m      [2mat [22m[2m[0m[36msrc/app/core/services/tasks-store.service.spec.ts[39m[0m[2m:113:21[22m[2m[22m
+[2m      [2mat _ZoneDelegate.invoke ([22m[2m../../node_modules/zone.js/bundles/zone.umd.js[2m:416:32)[22m[2m[22m
+[2m      [2mat ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke ([22m[2m../../node_modules/zone.js/bundles/zone-testing.umd.js[2m:2176:43)[22m[2m[22m
+[2m      [2mat _ZoneDelegate.invoke ([22m[2m../../node_modules/zone.js/bundles/zone.umd.js[2m:415:38)[22m[2m[22m
+[2m      [2mat ZoneImpl.run ([22m[2m../../node_modules/zone.js/bundles/zone.umd.js[2m:147:47)[22m[2m[22m
+[2m      [2mat Object.wrappedFunc ([22m[2m../../node_modules/zone.js/bundles/zone-testing.umd.js[2m:450:38)[22m[2m[22m
+
+[1m[31m  [1m● [22m[1mTasksStoreService › setFilters › should update filters and reload tasks[39m[22m
+
+    [2mexpect([22m[31mjest.fn()[39m[2m).[22mtoHaveBeenCalledWith[2m([22m[32m...expected[39m[2m)[22m
+
+    Expected: [32m{"category": "WORK", "status": "DONE"}[39m
+
+    Number of calls: [31m0[39m
+[2m[22m
+[2m    [0m [90m 212 |[39m         [36mif[39m (f[33m.[39mstatus [33m===[39m [32m'DONE'[39m) {[22m
+[2m     [90m 213 |[39m           expect(f)[33m.[39mtoEqual(filters)[22m
+[2m    [31m[1m>[22m[2m[39m[90m 214 |[39m           expect(tasksService[33m.[39mgetTasks)[33m.[39mtoHaveBeenCalledWith(filters)[22m
+[2m     [90m     |[39m                                         [31m[1m^[22m[2m[39m[22m
+[2m     [90m 215 |[39m           done()[22m
+[2m     [90m 216 |[39m         }[22m
+[2m     [90m 217 |[39m       })[0m[22m
+[2m[22m
+[2m      [2mat Object.next ([22m[2m[0m[36msrc/app/core/services/tasks-store.service.spec.ts[39m[0m[2m:214:41)[22m[2m[22m
+[2m      [2mat ConsumerObserver.Object.<anonymous>.ConsumerObserver.next ([22m[2m../../node_modules/rxjs/src/internal/Subscriber.ts[2m:155:25)[22m[2m[22m
+[2m      [2mat SafeSubscriber.Object.<anonymous>.Subscriber._next ([22m[2m../../node_modules/rxjs/src/internal/Subscriber.ts[2m:113:22)[22m[2m[22m
+[2m      [2mat SafeSubscriber.Object.<anonymous>.Subscriber.next ([22m[2m../../node_modules/rxjs/src/internal/Subscriber.ts[2m:71:12)[22m[2m[22m
+[2m      [2mat [22m[2m../../node_modules/rxjs/src/internal/Subject.ts[2m:67:20[22m[2m[22m
+[2m      [2mat Object.errorContext ([22m[2m../../node_modules/rxjs/src/internal/util/errorContext.ts[2m:29:5)[22m[2m[22m
+[2m      [2mat BehaviorSubject.Object.<anonymous>.Subject.next ([22m[2m../../node_modules/rxjs/src/internal/Subject.ts[2m:60:5)[22m[2m[22m
+[2m      [2mat BehaviorSubject.Object.<anonymous>.BehaviorSubject.next ([22m[2m../../node_modules/rxjs/src/internal/BehaviorSubject.ts[2m:35:15)[22m[2m[22m
+[2m      [2mat TasksStoreService.setFilters ([22m[2msrc/app/core/services/tasks-store.service.ts[2m:113:25)[22m[2m[22m
+[2m      [2mat [22m[2m[0m[36msrc/app/core/services/tasks-store.service.spec.ts[39m[0m[2m:219:15[22m[2m[22m
+[2m      [2mat _ZoneDelegate.invoke ([22m[2m../../node_modules/zone.js/bundles/zone.umd.js[2m:416:32)[22m[2m[22m
+[2m      [2mat ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke ([22m[2m../../node_modules/zone.js/bundles/zone-testing.umd.js[2m:2176:43)[22m[2m[22m
+[2m      [2mat _ZoneDelegate.invoke ([22m[2m../../node_modules/zone.js/bundles/zone.umd.js[2m:415:38)[22m[2m[22m
+[2m      [2mat ZoneImpl.run ([22m[2m../../node_modules/zone.js/bundles/zone.umd.js[2m:147:47)[22m[2m[22m
+[2m      [2mat Object.wrappedFunc ([22m[2m../../node_modules/zone.js/bundles/zone-testing.umd.js[2m:450:38)[22m[2m[22m
+
+[1m[31m  [1m● [22m[1mTasksStoreService › setFilters › should update filters and reload tasks[39m[22m
+
+    [2mexpect([22m[31mjest.fn()[39m[2m).[22mtoHaveBeenCalledWith[2m([22m[32m...expected[39m[2m)[22m
+
+    Expected: [32m{"category": "WORK", "status": "DONE"}[39m
+
+    Number of calls: [31m0[39m
+[2m[22m
+[2m    [0m [90m 212 |[39m         [36mif[39m (f[33m.[39mstatus [33m===[39m [32m'DONE'[39m) {[22m
+[2m     [90m 213 |[39m           expect(f)[33m.[39mtoEqual(filters)[22m
+[2m    [31m[1m>[22m[2m[39m[90m 214 |[39m           expect(tasksService[33m.[39mgetTasks)[33m.[39mtoHaveBeenCalledWith(filters)[22m
+[2m     [90m     |[39m                                         [31m[1m^[22m[2m[39m[22m
+[2m     [90m 215 |[39m           done()[22m
+[2m     [90m 216 |[39m         }[22m
+[2m     [90m 217 |[39m       })[0m[22m
+[2m[22m
+[2m      [2mat Object.next ([22m[2m[0m[36msrc/app/core/services/tasks-store.service.spec.ts[39m[0m[2m:214:41)[22m[2m[22m
+[2m      [2mat ConsumerObserver.Object.<anonymous>.ConsumerObserver.next ([22m[2m../../node_modules/rxjs/src/internal/Subscriber.ts[2m:155:25)[22m[2m[22m
+[2m      [2mat SafeSubscriber.Object.<anonymous>.Subscriber._next ([22m[2m../../node_modules/rxjs/src/internal/Subscriber.ts[2m:113:22)[22m[2m[22m
+[2m      [2mat SafeSubscriber.Object.<anonymous>.Subscriber.next ([22m[2m../../node_modules/rxjs/src/internal/Subscriber.ts[2m:71:12)[22m[2m[22m
+[2m      [2mat [22m[2m../../node_modules/rxjs/src/internal/Subject.ts[2m:67:20[22m[2m[22m
+[2m      [2mat Object.errorContext ([22m[2m../../node_modules/rxjs/src/internal/util/errorContext.ts[2m:29:5)[22m[2m[22m
+[2m      [2mat BehaviorSubject.Object.<anonymous>.Subject.next ([22m[2m../../node_modules/rxjs/src/internal/Subject.ts[2m:60:5)[22m[2m[22m
+[2m      [2mat BehaviorSubject.Object.<anonymous>.BehaviorSubject.next ([22m[2m../../node_modules/rxjs/src/internal/BehaviorSubject.ts[2m:35:15)[22m[2m[22m
+[2m      [2mat TasksStoreService.loadTasks ([22m[2msrc/app/core/services/tasks-store.service.ts[2m:28:27)[22m[2m[22m
+[2m      [2mat TasksStoreService.setFilters ([22m[2msrc/app/core/services/tasks-store.service.ts[2m:114:10)[22m[2m[22m
+[2m      [2mat [22m[2m[0m[36msrc/app/core/services/tasks-store.service.spec.ts[39m[0m[2m:219:15[22m[2m[22m
+[2m      [2mat _ZoneDelegate.invoke ([22m[2m../../node_modules/zone.js/bundles/zone.umd.js[2m:416:32)[22m[2m[22m
+[2m      [2mat ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke ([22m[2m../../node_modules/zone.js/bundles/zone-testing.umd.js[2m:2176:43)[22m[2m[22m
+[2m      [2mat _ZoneDelegate.invoke ([22m[2m../../node_modules/zone.js/bundles/zone.umd.js[2m:415:38)[22m[2m[22m
+[2m      [2mat ZoneImpl.run ([22m[2m../../node_modules/zone.js/bundles/zone.umd.js[2m:147:47)[22m[2m[22m
+[2m      [2mat Object.wrappedFunc ([22m[2m../../node_modules/zone.js/bundles/zone-testing.umd.js[2m:450:38)[22m[2m[22m
+
+[1m[31m  [1m● [22m[1mTasksStoreService › setFilters › should update filters and reload tasks[39m[22m
+
+    thrown: "Exceeded timeout of 5000 ms for a test while waiting for `done()` to be called.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+[2m[22m
+[2m    [0m [90m 205 |[39m[22m
+[2m     [90m 206 |[39m   describe([32m'setFilters'[39m[33m,[39m () [33m=>[39m {[22m
+[2m    [31m[1m>[22m[2m[39m[90m 207 |[39m     it([32m'should update filters and reload tasks'[39m[33m,[39m (done) [33m=>[39m {[22m
+[2m     [90m     |[39m     [31m[1m^[22m[2m[39m[22m
+[2m     [90m 208 |[39m       [36mconst[39m filters [33m=[39m { status[33m:[39m [32m'DONE'[39m[33m,[39m category[33m:[39m [32m'WORK'[39m }[22m
+[2m     [90m 209 |[39m       tasksService[33m.[39mgetTasks[33m.[39mmockReturnValue([36mof[39m([]))[22m
+[2m     [90m 210 |[39m[0m[22m
+[2m[22m
+[2m      [2mat context.<computed> ([22m[2m../../node_modules/zone.js/bundles/zone-testing.umd.js[2m:492:43)[22m[2m[22m
+[2m      [2mat [22m[2m[0m[36msrc/app/core/services/tasks-store.service.spec.ts[39m[0m[2m:207:5[22m[2m[22m
+[2m      [2mat _ZoneDelegate.invoke ([22m[2m../../node_modules/zone.js/bundles/zone.umd.js[2m:416:32)[22m[2m[22m
+[2m      [2mat ZoneImpl.run ([22m[2m../../node_modules/zone.js/bundles/zone.umd.js[2m:147:47)[22m[2m[22m
+[2m      [2mat [22m[2m../../node_modules/zone.js/bundles/zone-testing.umd.js[2m:426:37[22m[2m[22m
+[2m      [2mat context.<computed> ([22m[2m../../node_modules/zone.js/bundles/zone-testing.umd.js[2m:474:43)[22m[2m[22m
+[2m      [2mat [22m[2m[0m[36msrc/app/core/services/tasks-store.service.spec.ts[39m[0m[2m:206:3[22m[2m[22m
+[2m      [2mat _ZoneDelegate.invoke ([22m[2m../../node_modules/zone.js/bundles/zone.umd.js[2m:416:32)[22m[2m[22m
+[2m      [2mat ZoneImpl.run ([22m[2m../../node_modules/zone.js/bundles/zone.umd.js[2m:147:47)[22m[2m[22m
+[2m      [2mat [22m[2m../../node_modules/zone.js/bundles/zone-testing.umd.js[2m:426:37[22m[2m[22m
+[2m      [2mat context.<computed> ([22m[2m../../node_modules/zone.js/bundles/zone-testing.umd.js[2m:474:43)[22m[2m[22m
+[2m      [2mat Object.<anonymous> ([22m[2m[0m[36msrc/app/core/services/tasks-store.service.spec.ts[39m[0m[2m:11:1)[22m[2m[22m
+
+[1mTest Suites: [22m[1m[31m2 failed[39m[22m, [1m[32m1 passed[39m[22m, 3 total
+[1mTests:       [22m[1m[31m8 failed[39m[22m, [1m[32m13 passed[39m[22m, 21 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        [1m[33m12.326 s[39m[22m
+[2mRan all test suites[22m[2m.[22m

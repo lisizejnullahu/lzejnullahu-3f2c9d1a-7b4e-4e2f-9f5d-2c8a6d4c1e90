@@ -1,0 +1,54 @@
+{
+  "run": {
+    "command": "nx run-many --target=test --all",
+    "startTime": "2026-01-03T00:19:56.658Z",
+    "endTime": "2026-01-03T00:19:56.743Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "dashboard:test",
+      "target": "test",
+      "projectName": "dashboard",
+      "hash": "14073602256871009215",
+      "startTime": "2026-01-03T00:19:56.667Z",
+      "endTime": "2026-01-03T00:19:56.731Z",
+      "params": "",
+      "cacheStatus": "local-cache-hit",
+      "status": 0
+    },
+    {
+      "taskId": "auth:test",
+      "target": "test",
+      "projectName": "auth",
+      "hash": "14072820558691502890",
+      "startTime": "2026-01-03T00:19:56.667Z",
+      "endTime": "2026-01-03T00:19:56.732Z",
+      "params": "",
+      "cacheStatus": "local-cache-hit",
+      "status": 0
+    },
+    {
+      "taskId": "data:test",
+      "target": "test",
+      "projectName": "data",
+      "hash": "13683033946105475699",
+      "startTime": "2026-01-03T00:19:56.667Z",
+      "endTime": "2026-01-03T00:19:56.734Z",
+      "params": "",
+      "cacheStatus": "local-cache-hit",
+      "status": 0
+    },
+    {
+      "taskId": "api:test",
+      "target": "test",
+      "projectName": "api",
+      "hash": "11257196430740473125",
+      "startTime": "2026-01-03T00:19:56.736Z",
+      "endTime": "2026-01-03T00:19:56.741Z",
+      "params": "",
+      "cacheStatus": "local-cache-hit",
+      "status": 0
+    }
+  ]
+}

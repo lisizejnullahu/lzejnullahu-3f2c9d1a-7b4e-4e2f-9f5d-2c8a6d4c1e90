@@ -1,0 +1,12 @@
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [0m[7m[37m api [39m[27m[0m [2mapps/api/src/tasks/[22m[1mtasks.controller.spec.ts[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [0m[7m[37m api [39m[27m[0m [2mapps/api/src/tasks/[22m[1mtasks.service.spec.ts[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [0m[7m[37m api [39m[27m[0m [2mapps/api/src/auth/[22m[1mauth.controller.spec.ts[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [0m[7m[37m api [39m[27m[0m [2mapps/api/src/audit-log/[22m[1maudit-log.controller.spec.ts[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [0m[7m[37m api [39m[27m[0m [2mapps/api/src/audit-log/[22m[1maudit-log.service.spec.ts[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [0m[7m[37m api [39m[27m[0m [2mapps/api/src/common/interceptors/[22m[1maudit.interceptor.spec.ts[22m
+
+[1mTest Suites: [22m[1m[32m6 passed[39m[22m, 6 total
+[1mTests:       [22m[1m[33m4 skipped[39m[22m, [1m[32m50 passed[39m[22m, 54 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        4.122 s
+[2mRan all test suites[22m[2m.[22m
